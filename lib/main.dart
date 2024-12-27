@@ -5,6 +5,8 @@ void main() {
 }
 
 class TypewriterChatApp extends StatelessWidget {
+  const TypewriterChatApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,6 +18,8 @@ class TypewriterChatApp extends StatelessWidget {
 }
 
 class ChatScreen extends StatefulWidget {
+  const ChatScreen({super.key});
+
   @override
   _ChatScreenState createState() => _ChatScreenState();
 }
